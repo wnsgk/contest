@@ -37,7 +37,7 @@ int main(int argc, char** argv)
         vy.push_back(ny-prev);
         if(vx.size() < vy.size()){
             cout << "Case #" << test_case+1 << endl;
-		    cout<<"NO"<<endl;
+	    cout<<"NO"<<endl;
             continue;
         }
         if(vy.size() == 1){
@@ -46,7 +46,7 @@ int main(int argc, char** argv)
                 if(x[i] == 'a') cnt++;
             }
             cout << "Case #" << test_case+1 << endl;
-		    if(cnt >= vy[0])  cout << "YES" << endl;
+	    if(cnt >= vy[0])  cout << "YES" << endl;
             else cout<<"NO"<<endl;
             continue;
         }
@@ -64,7 +64,7 @@ int main(int argc, char** argv)
         }
         if(start == -1){
             cout << "Case #" << test_case+1 << endl;
-		        cout<<"YES"<<endl;
+	    cout<<"YES"<<endl;
             continue;
         }
         bool suc = false;
